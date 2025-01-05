@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4586821900076392}
   - component: {fileID: 33222949445572694}
   - component: {fileID: 23050206849376476}
+  - component: {fileID: -715530818734102379}
   m_Layer: 0
   m_Name: rpgpp_lt_tree_01
   m_TagString: Untagged
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &-715530818734102379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612273161005096}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9076898, y: 7.46229, z: 0.79608095}
+  m_Center: {x: -0.007645786, y: 3.722106, z: 0.015577182}
