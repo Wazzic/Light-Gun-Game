@@ -60,22 +60,21 @@
   <ItemGroup>
     <Compile Include="Assets\Script\Archive\ChangeMaterial.cs" />
     <Compile Include="Assets\Script\Archive\Projection.cs" />
-    <Compile Include="Assets\3rd Party Stuff\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+    <Compile Include="Assets\Script\Archive\LowPolyWater.cs" />
     <Compile Include="Assets\Script\Archive\Raycast.cs" />
     <Compile Include="Assets\Script\MouseHandler.cs" />
     <Compile Include="Assets\Script\LightGunTest.cs" />
     <Compile Include="Assets\Script\Archive\HidingWeapon.cs" />
     <Compile Include="Assets\Script\MatChange.cs" />
-    <Compile Include="Assets\3rd Party Stuff\LowPolyWater_Pack\Scripts\GeneratePlane.cs" />
+    <Compile Include="Assets\Script\Archive\GeneratePlane.cs" />
     <Compile Include="Assets\Script\LightGun.cs" />
     <Compile Include="Assets\Script\DoorController.cs" />
-    <Compile Include="Assets\3rd Party Stuff\Scifi-Gun\ReadMe.cs" />
     <Compile Include="Assets\Script\Archive\RaycastReflection.cs" />
     <Compile Include="Assets\Script\Character_Controller.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\3rd Party Stuff\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
-    <None Include="Assets\3rd Party Stuff\LowPolyWater_Pack\Credits.txt" />
+    <None Include="Assets\External Assets\WaterShaded.shader" />
+    <None Include="Assets\External Assets\Credits.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
