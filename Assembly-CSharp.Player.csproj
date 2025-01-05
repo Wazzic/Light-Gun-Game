@@ -58,22 +58,43 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Archive\ChangeMaterial.cs" />
-    <Compile Include="Assets\Script\Archive\Projection.cs" />
-    <Compile Include="Assets\Script\Archive\LowPolyWater.cs" />
-    <Compile Include="Assets\Script\Archive\Raycast.cs" />
-    <Compile Include="Assets\Script\MouseHandler.cs" />
-    <Compile Include="Assets\Script\LightGunTest.cs" />
-    <Compile Include="Assets\Script\Archive\HidingWeapon.cs" />
-    <Compile Include="Assets\Script\MatChange.cs" />
-    <Compile Include="Assets\Script\LightGun.cs" />
-    <Compile Include="Assets\Script\DoorController.cs" />
-    <Compile Include="Assets\Script\Archive\RaycastReflection.cs" />
-    <Compile Include="Assets\Script\Character_Controller.cs" />
+    <Compile Include="Assets\Scripts\Archive\ChangeMaterial.cs" />
+    <Compile Include="Assets\Scripts\Archive\Projection.cs" />
+    <Compile Include="Assets\Scripts\Archive\LowPolyWater.cs" />
+    <Compile Include="Assets\Scripts\Archive\Raycast.cs" />
+    <Compile Include="Assets\Scripts\ButtonInteraction.cs" />
+    <Compile Include="Assets\Scripts\MouseHandler.cs" />
+    <Compile Include="Assets\Scripts\LightGunTest.cs" />
+    <Compile Include="Assets\Scripts\Archive\HidingWeapon.cs" />
+    <Compile Include="Assets\Scripts\MatChange.cs" />
+    <Compile Include="Assets\Scripts\LightGun.cs" />
+    <Compile Include="Assets\Scripts\DoorController.cs" />
+    <Compile Include="Assets\Scripts\Archive\RaycastReflection.cs" />
+    <Compile Include="Assets\Scripts\Character_Controller.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\External Assets\WaterShaded.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\External Assets\Credits.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
