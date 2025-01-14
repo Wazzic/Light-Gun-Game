@@ -1,0 +1,1045 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.15f1 (42973686a05c) revision 4364086'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59760
+Successfully changed project path to: C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game
+C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 68.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.15f1 (42973686a05c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 with Max-Q Design (ID=0x1f14)
+    Vendor:   NVIDIA
+    VRAM:     8006 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009400 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 67.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (689ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (118ms)
+				TypeCache.Initialize (118ms)
+					TypeCache.ScanAssembly (116ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (140ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003113 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (647ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+				TypeCache.Initialize (175ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2747 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (1.3 MB). Loaded Objects now: 3241.
+Memory consumption went from 0.52 GB to 0.52 GB.
+Total: 4.481800 ms (FindLiveObjects: 0.630800 ms CreateObjectMapping: 0.340900 ms MarkObjects: 3.250300 ms  DeleteObjects: 0.257500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2540296.031362 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-3_comp_light.exr
+  artifactKey: Guid(3a620b7bdd3ffcd438865573dd5869ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-3_comp_light.exr using Guid(3a620b7bdd3ffcd438865573dd5869ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e788178b58473b7d511a26e3090f3552') in 0.113937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-5_comp_dir.png
+  artifactKey: Guid(cc2b07934244df44d9386bc1739b5f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-5_comp_dir.png using Guid(cc2b07934244df44d9386bc1739b5f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f44acab4a81dde3848a356cf61c4f8') in 0.043210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-17_comp_light.exr
+  artifactKey: Guid(8620b5fab4ebc4948974f4f728b4d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-17_comp_light.exr using Guid(8620b5fab4ebc4948974f4f728b4d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca0c59e6bb38a0a18b2e452798b5884') in 0.015177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-13_comp_dir.png
+  artifactKey: Guid(6bb6805eb27f5ad43920834279814406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-13_comp_dir.png using Guid(6bb6805eb27f5ad43920834279814406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ff4ba0b07ac59fd02a5fc26a3c425d') in 0.014968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-0_comp_light.exr
+  artifactKey: Guid(49d1cff752a0482449204342aef91050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-0_comp_light.exr using Guid(49d1cff752a0482449204342aef91050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d97843f00a358e7477d2297f62d0ed3') in 0.015909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-9_comp_light.exr
+  artifactKey: Guid(587fb2953b142d24cabd3515c1f98bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-9_comp_light.exr using Guid(587fb2953b142d24cabd3515c1f98bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b69f3bc50376f77f0020eaccf5e752') in 0.015648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-11_comp_light.exr
+  artifactKey: Guid(bbc8a86423891004f9c3b9bf57d2102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-11_comp_light.exr using Guid(bbc8a86423891004f9c3b9bf57d2102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e786448f1df321ce3e3630d4559f1fd') in 0.016955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-6_comp_light.exr
+  artifactKey: Guid(46dac9e08650757489492959e8d3bf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-6_comp_light.exr using Guid(46dac9e08650757489492959e8d3bf03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b459326b899ca23e88568db04cbd8be8') in 0.015795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-11_comp_dir.png
+  artifactKey: Guid(7518f7dabb841ae41aca23bdc53b2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-11_comp_dir.png using Guid(7518f7dabb841ae41aca23bdc53b2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8be830a4ce1d01566e808d22c7594c') in 0.018121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Mirror Game/LightingData.asset
+  artifactKey: Guid(372502b914713ca49ac76f1c30036112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/LightingData.asset using Guid(372502b914713ca49ac76f1c30036112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e0f8623ba71d8eb95e8cb81e8bbd1ab') in 0.012213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-10_comp_dir.png
+  artifactKey: Guid(222aadbdddc4cba46b4f6a15ba4e5fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-10_comp_dir.png using Guid(222aadbdddc4cba46b4f6a15ba4e5fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc28cfbbf6b8f7088a97f5ec8d306f8b') in 0.018260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-4_comp_dir.png
+  artifactKey: Guid(9aa3951c299b80f4d8f81cba2eb658eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-4_comp_dir.png using Guid(9aa3951c299b80f4d8f81cba2eb658eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2bbfd66c0f50a4484131ec65a20280') in 0.015074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-18_comp_dir.png
+  artifactKey: Guid(d43dc69fb278810429cff4300d8f3969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-18_comp_dir.png using Guid(d43dc69fb278810429cff4300d8f3969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76a280053b673ffd7328a28bd54b578') in 0.015684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-7_comp_dir.png
+  artifactKey: Guid(d93ca0fc0ddd83441a3203aa8ff542fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-7_comp_dir.png using Guid(d93ca0fc0ddd83441a3203aa8ff542fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc2848b13c769b0e53524706ed937e8') in 0.017347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-2_comp_light.exr
+  artifactKey: Guid(6ab2e20688bc0ec4d924357fed811603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-2_comp_light.exr using Guid(6ab2e20688bc0ec4d924357fed811603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2e939e7c5c2c4a305d0d18304d09f7') in 0.015461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.819455 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-20_comp_light.exr
+  artifactKey: Guid(6316ddf014e00ef40aa39f46e5d64c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-20_comp_light.exr using Guid(6316ddf014e00ef40aa39f46e5d64c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832c33510ae38b029882155d876596ce') in 0.055713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-21_comp_light.exr
+  artifactKey: Guid(7dc48b0c9751a0f4984a00ffba944cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-21_comp_light.exr using Guid(7dc48b0c9751a0f4984a00ffba944cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bc4acba95df08d8ac4b19b78c335c8') in 0.019651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-24_comp_dir.png
+  artifactKey: Guid(715627fbf6fb07c40b90cf77426baead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-24_comp_dir.png using Guid(715627fbf6fb07c40b90cf77426baead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73fd3423e7f0d5d1c8665feef424454c') in 0.018748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.257578 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-25_comp_light.exr
+  artifactKey: Guid(ed1747ef3c67170419944877abe7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-25_comp_light.exr using Guid(ed1747ef3c67170419944877abe7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b0310c11259f1d85fdf2a0fe12acb5') in 0.020126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-26_comp_light.exr
+  artifactKey: Guid(1af4b7bb7372c7d419ce767f2d09fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-26_comp_light.exr using Guid(1af4b7bb7372c7d419ce767f2d09fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed511a6bd4a5305b5bc209213db1b15c') in 0.018573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-28_comp_light.exr
+  artifactKey: Guid(19e3ebbc2ee29a64aa3a4e474c109674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-28_comp_light.exr using Guid(19e3ebbc2ee29a64aa3a4e474c109674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d96534f8dc6c9584cf6a295283c9f7a') in 0.017337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-28_comp_dir.png
+  artifactKey: Guid(9eced081e78b1f64683dab73a81e9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-28_comp_dir.png using Guid(9eced081e78b1f64683dab73a81e9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd7b6f9b851e7560ef83a9aefbe64c3') in 0.015875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.181568 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-30_comp_light.exr
+  artifactKey: Guid(7f1748645698dbd42a2aaca7d572a73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-30_comp_light.exr using Guid(7f1748645698dbd42a2aaca7d572a73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2559e5deb80507a08861f50e0f56bc14') in 0.017363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-33_comp_dir.png
+  artifactKey: Guid(1589eb98fff9c1544860d3346faefec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-33_comp_dir.png using Guid(1589eb98fff9c1544860d3346faefec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869123dad493fff6576a7be9489ac599') in 0.019537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-34_comp_light.exr
+  artifactKey: Guid(53c81a46a2a345142af731b44ec92a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-34_comp_light.exr using Guid(53c81a46a2a345142af731b44ec92a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149ce3ab31a2776874a5c74dc989d026') in 0.020071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.529761 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-35_comp_light.exr
+  artifactKey: Guid(eba86741fa9114d489fa7e4ec573aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-35_comp_light.exr using Guid(eba86741fa9114d489fa7e4ec573aa73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015ce7ea59fac54ed135777cf4dafe9c') in 0.027085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-38_comp_light.exr
+  artifactKey: Guid(672aab4337764af4e92986e23d3c6845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-38_comp_light.exr using Guid(672aab4337764af4e92986e23d3c6845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795896bd24a26ccf201fec7c5166340c') in 0.018712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-37_comp_light.exr
+  artifactKey: Guid(ccd59936adf2243498ad9305f245dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-37_comp_light.exr using Guid(ccd59936adf2243498ad9305f245dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8080833603c9b1076a2335edbc669f') in 0.020330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.359705 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-40_comp_light.exr
+  artifactKey: Guid(986d58ef9dff5fd4e97998d51708c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-40_comp_light.exr using Guid(986d58ef9dff5fd4e97998d51708c1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa53a6d453b4dd2bbe65e218181913c7') in 0.020055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.897502 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-30_comp_dir.png
+  artifactKey: Guid(565f0bed6036d924f961f848ba23a391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-30_comp_dir.png using Guid(565f0bed6036d924f961f848ba23a391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40acaabb9b4f205e57cc9b9708daba09') in 0.019629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-0_comp_light.exr
+  artifactKey: Guid(49d1cff752a0482449204342aef91050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-0_comp_light.exr using Guid(49d1cff752a0482449204342aef91050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f515220bb2034e974242e3f3c3ea5923') in 0.017105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-35_comp_dir.png
+  artifactKey: Guid(b2a5fc3e8ead10f418fd1ff871136ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-35_comp_dir.png using Guid(b2a5fc3e8ead10f418fd1ff871136ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870894cf65143a2a1fbfd7e73e338f3e') in 0.015203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-32_comp_dir.png
+  artifactKey: Guid(329ad32305907d04787ff5e29a63baa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-32_comp_dir.png using Guid(329ad32305907d04787ff5e29a63baa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28938c3fb6dde531cda8ce209fc8bf9') in 0.018032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-38_comp_light.exr
+  artifactKey: Guid(672aab4337764af4e92986e23d3c6845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-38_comp_light.exr using Guid(672aab4337764af4e92986e23d3c6845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe8baa2727463a8f36638ff6263660a') in 0.012534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-40_comp_dir.png
+  artifactKey: Guid(a9d76a8ad799d2342921eab14a59bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-40_comp_dir.png using Guid(a9d76a8ad799d2342921eab14a59bb81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1429257bdae4abc4a7c2c52564a02dff') in 0.014319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-39_comp_dir.png
+  artifactKey: Guid(2e3055402d77d014f9307e6188868549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-39_comp_dir.png using Guid(2e3055402d77d014f9307e6188868549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091d1faa432bf869c086cc6a29e5f75d') in 0.015134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-32_comp_light.exr
+  artifactKey: Guid(e8ee11810e984074ca160983e22f0208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-32_comp_light.exr using Guid(e8ee11810e984074ca160983e22f0208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ad2fd1a29b9d854f8fa3078a958fa8') in 0.013271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.840072 seconds.
+  path: Assets/Scenes/Mirror Game/ReflectionProbe-1.exr
+  artifactKey: Guid(324765f2209714f4f88efc585ba410e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/ReflectionProbe-1.exr using Guid(324765f2209714f4f88efc585ba410e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7172a75fcbffb08ebf3f6800d44b2260') in 0.049556 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003139 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (559ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (170ms)
+				TypeCache.Initialize (166ms)
+					TypeCache.ScanAssembly (163ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.2 MB). Loaded Objects now: 3280.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.419600 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.145800 ms MarkObjects: 1.860700 ms  DeleteObjects: 0.207600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003622 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Domain Reload Profiling:
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+				TypeCache.Initialize (183ms)
+					TypeCache.ScanAssembly (179ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 3283.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.439000 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.163800 ms MarkObjects: 1.836100 ms  DeleteObjects: 0.172200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003130 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Domain Reload Profiling:
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+				TypeCache.Initialize (159ms)
+					TypeCache.ScanAssembly (156ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (239ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 3286.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.504900 ms (FindLiveObjects: 0.218600 ms CreateObjectMapping: 0.135800 ms MarkObjects: 1.964500 ms  DeleteObjects: 0.185100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003455 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (805ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (584ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+				TypeCache.Initialize (176ms)
+					TypeCache.ScanAssembly (173ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 3289.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.642200 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.173800 ms MarkObjects: 1.928400 ms  DeleteObjects: 0.318800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003296 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (174ms)
+				TypeCache.Initialize (169ms)
+					TypeCache.ScanAssembly (166ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (268ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 3292.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.269300 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.132300 ms MarkObjects: 1.753400 ms  DeleteObjects: 0.177000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1024.341356 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-1_comp_dir.png
+  artifactKey: Guid(0a6a5101afbcd7f4f99ff860b83da0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-1_comp_dir.png using Guid(0a6a5101afbcd7f4f99ff860b83da0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5d46cdf5a227d7a1ef35567c492f3f') in 0.086408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-3_comp_light.exr
+  artifactKey: Guid(3a620b7bdd3ffcd438865573dd5869ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-3_comp_light.exr using Guid(3a620b7bdd3ffcd438865573dd5869ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5113ac171ad9c4c4c0d7f34616cf31') in 0.017837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-5_comp_dir.png
+  artifactKey: Guid(cc2b07934244df44d9386bc1739b5f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-5_comp_dir.png using Guid(cc2b07934244df44d9386bc1739b5f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e045b1b8c98b31b5b0b4afcaef07fb97') in 0.015239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-7_comp_light.exr
+  artifactKey: Guid(9574bc89ed3e7a846a7e495bf6f09db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-7_comp_light.exr using Guid(9574bc89ed3e7a846a7e495bf6f09db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa32caf42c014e74260414a6f7696fa5') in 0.015863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-13_comp_dir.png
+  artifactKey: Guid(6bb6805eb27f5ad43920834279814406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-13_comp_dir.png using Guid(6bb6805eb27f5ad43920834279814406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959a11d5e9cf17c7dcb2207eb24581d5') in 0.015678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-19_comp_dir.png
+  artifactKey: Guid(4aab8fefed292f24d9124ef4d905e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-19_comp_dir.png using Guid(4aab8fefed292f24d9124ef4d905e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f80e75ccbca134629e45806c5645178') in 0.016131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-3_comp_dir.png
+  artifactKey: Guid(3a6c8a304c2c1d34d88470988888773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-3_comp_dir.png using Guid(3a6c8a304c2c1d34d88470988888773e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8db59e1a4ef09625c6952c1a5e5d86') in 0.014769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-15_comp_light.exr
+  artifactKey: Guid(dbf58e815d449004a8f6b0c9c90fc0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-15_comp_light.exr using Guid(dbf58e815d449004a8f6b0c9c90fc0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95a56133554625106f0c4cd78b2cf6c') in 0.016442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-11_comp_light.exr
+  artifactKey: Guid(bbc8a86423891004f9c3b9bf57d2102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-11_comp_light.exr using Guid(bbc8a86423891004f9c3b9bf57d2102d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd057f4469b624f69a41531ac4330f8fd') in 0.014511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-8_comp_light.exr
+  artifactKey: Guid(c1a031d461779174fabe88dffa7f399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-8_comp_light.exr using Guid(c1a031d461779174fabe88dffa7f399f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3805affb7f9228ed5da3c0ee582b4a6') in 0.014881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-12_comp_dir.png
+  artifactKey: Guid(eced2d2e70f965b4c82873093bcea830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-12_comp_dir.png using Guid(eced2d2e70f965b4c82873093bcea830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf5411344628f1e4608e1a548eca476') in 0.016500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-11_comp_dir.png
+  artifactKey: Guid(7518f7dabb841ae41aca23bdc53b2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-11_comp_dir.png using Guid(7518f7dabb841ae41aca23bdc53b2881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e01cbb1cbfb39edde175c3a0562c52') in 0.017145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-10_comp_light.exr
+  artifactKey: Guid(239cecf843380f946a8ee80488ccc568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-10_comp_light.exr using Guid(239cecf843380f946a8ee80488ccc568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f5166433de9e9b7395ccfd358be5ef') in 0.015067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-6_comp_dir.png
+  artifactKey: Guid(f6a8035cd56010b4daa86677e83b0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-6_comp_dir.png using Guid(f6a8035cd56010b4daa86677e83b0359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3164a680b47a975c719b292fd256b9') in 0.016553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-4_comp_dir.png
+  artifactKey: Guid(9aa3951c299b80f4d8f81cba2eb658eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-4_comp_dir.png using Guid(9aa3951c299b80f4d8f81cba2eb658eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733554bb295c25932409255c63cefa7c') in 0.012910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-18_comp_dir.png
+  artifactKey: Guid(d43dc69fb278810429cff4300d8f3969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-18_comp_dir.png using Guid(d43dc69fb278810429cff4300d8f3969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7e14e48a172c16646065214e533831') in 0.014760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-4_comp_light.exr
+  artifactKey: Guid(5d6cf929af2f1754282525057c2deddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-4_comp_light.exr using Guid(5d6cf929af2f1754282525057c2deddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10fe9fce99c9b95d4967303b019772f') in 0.015490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-13_comp_light.exr
+  artifactKey: Guid(a6901a0c2f97b384783917e1e23e9a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-13_comp_light.exr using Guid(a6901a0c2f97b384783917e1e23e9a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484fcca4430aa0e8939acc009fa1793e') in 0.016675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-9_comp_dir.png
+  artifactKey: Guid(e2b06c2f17519064bae22511a6be4f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-9_comp_dir.png using Guid(e2b06c2f17519064bae22511a6be4f1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9041f6de8e72b11bb4d2dd81c4f7fb36') in 0.015551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-16_comp_dir.png
+  artifactKey: Guid(891ea4fa690455341a4444dda5b71faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-16_comp_dir.png using Guid(891ea4fa690455341a4444dda5b71faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f540d688e4e164d935bd7cb264ecc08f') in 0.018102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.297686 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-20_comp_light.exr
+  artifactKey: Guid(6316ddf014e00ef40aa39f46e5d64c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-20_comp_light.exr using Guid(6316ddf014e00ef40aa39f46e5d64c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963bc72c9ab897618bc92adce4083b02') in 0.015805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-23_comp_light.exr
+  artifactKey: Guid(9574226178462bb46b4747f160022f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-23_comp_light.exr using Guid(9574226178462bb46b4747f160022f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c097e8bfa33e74f169ded77cd4f98c1') in 0.016586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-23_comp_dir.png
+  artifactKey: Guid(27aabe8ade0fcf34a9c172422ae0ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-23_comp_dir.png using Guid(27aabe8ade0fcf34a9c172422ae0ae28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011be3be56bf761a3d1bf2d30ccc15ca') in 0.015241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-24_comp_dir.png
+  artifactKey: Guid(715627fbf6fb07c40b90cf77426baead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-24_comp_dir.png using Guid(715627fbf6fb07c40b90cf77426baead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e098f9b2b82476d7106802732d7d7e00') in 0.016220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-22_comp_dir.png
+  artifactKey: Guid(5cbb60dbeee674d42bca09f2035f157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-22_comp_dir.png using Guid(5cbb60dbeee674d42bca09f2035f157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2fa1acb24fd623ae91e5a0c392371a') in 0.013935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.121602 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-25_comp_light.exr
+  artifactKey: Guid(ed1747ef3c67170419944877abe7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-25_comp_light.exr using Guid(ed1747ef3c67170419944877abe7de2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d05cf39424cc610b023f07fcc28ea6') in 0.008190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-26_comp_light.exr
+  artifactKey: Guid(1af4b7bb7372c7d419ce767f2d09fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-26_comp_light.exr using Guid(1af4b7bb7372c7d419ce767f2d09fc37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93632eaffabb7348e2c2dc89413e2fc') in 0.016704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-29_comp_dir.png
+  artifactKey: Guid(aee583546d84ed448aa9c0e349559237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-29_comp_dir.png using Guid(aee583546d84ed448aa9c0e349559237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ffaee0a5098223fd45cdaed9d8bbe') in 0.017317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-28_comp_light.exr
+  artifactKey: Guid(19e3ebbc2ee29a64aa3a4e474c109674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-28_comp_light.exr using Guid(19e3ebbc2ee29a64aa3a4e474c109674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8361931e9a8a7b56845ef68c7e81c4') in 0.015691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Mirror Game/Lightmap-28_comp_dir.png
+  artifactKey: Guid(9eced081e78b1f64683dab73a81e9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Mirror Game/Lightmap-28_comp_dir.png using Guid(9eced081e78b1f64683dab73a81e9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9cafc5d98b40f265813e590dd1e1f7') in 0.016967 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002828 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (590ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+				TypeCache.Initialize (171ms)
+					TypeCache.ScanAssembly (167ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2700 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.2 MB). Loaded Objects now: 3295.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.425500 ms (FindLiveObjects: 0.210900 ms CreateObjectMapping: 0.148100 ms MarkObjects: 1.856900 ms  DeleteObjects: 0.208900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003164 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (819ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (172ms)
+					TypeCache.ScanAssembly (167ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 3298.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.443900 ms (FindLiveObjects: 0.193300 ms CreateObjectMapping: 0.119500 ms MarkObjects: 1.897000 ms  DeleteObjects: 0.233300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002701 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+				TypeCache.Initialize (165ms)
+					TypeCache.ScanAssembly (162ms)
+				ResolveRequiredComponents (4ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 3301.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 2.226900 ms (FindLiveObjects: 0.206600 ms CreateObjectMapping: 0.132500 ms MarkObjects: 1.715700 ms  DeleteObjects: 0.171200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
