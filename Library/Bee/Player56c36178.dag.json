@@ -1,0 +1,1773 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/boot.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/boot.config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/boot.config"
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/data.unity3d",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/data.unity3d"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/data.unity3d"
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/RuntimeInitializeOnLoads.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/RuntimeInitializeOnLoads.json"
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/ScriptingAssemblies.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/ScriptingAssemblies.json"
+      ],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "UnityLinker Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.15f1\\Editor\\Data\\il2cpp/build/deploy/UnityLinker.exe\" --search-directory=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies\" --search-directory=\"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed\" --search-directory=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc\" --search-directory=\"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32\" --search-directory=\"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades\" --out=\"Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped\" --include-link-xml=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed\\MethodsToPreserve.xml\" --include-link-xml=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed\\TypesInScenes.xml\" --include-link-xml=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed\\SerializedTypes.xml\" --include-directory=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies\" --include-directory=\"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed\" --include-directory=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc\" --include-directory=\"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32\" --include-directory=\"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades\" --rule-set=Aggressive --dotnetprofile=unityaot-win32 --dotnetruntime=Mono --platform=WindowsDesktop --use-editor-options --engine-modules-asset-file=\"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/modules.asset\" --editor-data-file=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json\" --include-unity-root-assembly=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll\" --include-unity-root-assembly=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll\" --include-unity-root-assembly=\"C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll\" --print-command-line",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UNETModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Accessibility.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Commons.Xml.Relaxng.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/CustomMarshalers.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/Microsoft.Win32.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/Microsoft.Win32.Registry.AccessControl.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/Microsoft.Win32.Registry.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.AppContext.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Buffers.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Collections.Concurrent.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Collections.NonGeneric.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Collections.Specialized.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Collections.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ComponentModel.Annotations.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ComponentModel.EventBasedAsync.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ComponentModel.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ComponentModel.TypeConverter.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ComponentModel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Console.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Data.Common.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Data.SqlClient.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.Contracts.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.Debug.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.FileVersionInfo.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.Process.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.StackTrace.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.TextWriterTraceListener.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.TraceEvent.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.TraceSource.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Diagnostics.Tracing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Drawing.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Dynamic.Runtime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Globalization.Calendars.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Globalization.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Globalization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.Compression.ZipFile.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.FileSystem.AccessControl.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.FileSystem.DriveInfo.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.FileSystem.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.FileSystem.Watcher.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.FileSystem.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.IsolatedStorage.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.MemoryMappedFiles.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.Pipes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.UnmanagedMemoryStream.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.IO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Linq.Expressions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Linq.Parallel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Linq.Queryable.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Memory.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.AuthenticationManager.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Cache.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Http.Rtc.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.HttpListener.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Mail.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.NameResolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.NetworkInformation.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Ping.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Requests.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.ServicePoint.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Sockets.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.Utilities.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.WebHeaderCollection.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.WebSockets.Client.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Net.WebSockets.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ObjectModel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.DispatchProxy.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.Emit.ILGeneration.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.Emit.Lightweight.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.Emit.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.TypeExtensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Reflection.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Resources.Reader.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Resources.ReaderWriter.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Resources.ResourceManager.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Resources.Writer.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.CompilerServices.VisualC.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Handles.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.InteropServices.RuntimeInformation.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.InteropServices.WindowsRuntime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.InteropServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Loader.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Numerics.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Serialization.Formatters.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Serialization.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Serialization.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.Serialization.Xml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Runtime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.AccessControl.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Claims.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Algorithms.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Cng.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Csp.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.DeriveBytes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Encoding.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Encryption.Aes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Encryption.ECDsa.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Encryption.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Hashing.Algorithms.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Hashing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.OpenSsl.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Pkcs.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.ProtectedData.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.RSA.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.RandomNumberGenerator.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Cryptography.X509Certificates.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Principal.Windows.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.Principal.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Security.SecureString.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ServiceModel.Duplex.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ServiceModel.Http.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ServiceModel.NetTcp.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ServiceModel.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ServiceModel.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ServiceProcess.ServiceController.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Text.Encoding.CodePages.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Text.Encoding.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Text.Encoding.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Text.RegularExpressions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.AccessControl.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.Overlapped.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.Tasks.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.Tasks.Parallel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.Tasks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.Thread.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.ThreadPool.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.Timer.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Threading.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.ValueTuple.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.ReaderWriter.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.XDocument.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.XPath.XDocument.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.XPath.XmlDocument.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.XPath.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.XmlDocument.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.XmlSerializer.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/System.Xml.Xsl.Primitives.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/IBM.Data.DB2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/ICSharpCode.SharpZipLib.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.Build.Engine.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.Build.Framework.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.Build.Tasks.v4.0.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.Build.Utilities.v4.0.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.Build.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.CSharp.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.VisualC.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Microsoft.Web.Infrastructure.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Btls.Interface.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.C5.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.CSharp.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Cairo.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.CompilerServices.SymbolWriter.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Data.Sqlite.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Data.Tds.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Http.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Management.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Messaging.RabbitMQ.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Messaging.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Options.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Parallel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Posix.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Profiler.Log.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.Win32.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Simd.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Tasklets.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.WebBrowser.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.XBuild.Tasks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Novell.Directory.Ldap.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/PEAPI.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/RabbitMQ.Client.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/SMDiagnostics.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.DataAnnotations.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.Install.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.Entity.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.OracleClient.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.Services.Client.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.Services.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Deployment.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Design.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.DirectoryServices.Protocols.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.DirectoryServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.Design.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Dynamic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IdentityModel.Selectors.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IdentityModel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Json.Microsoft.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Management.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Messaging.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.Formatting.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.WebRequest.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.Vectors.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Debugger.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Experimental.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Interfaces.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Observable.Aliases.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.PlatformServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Providers.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Runtime.Remoting.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Windows.Forms.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reactive.Windows.Threading.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Reflection.Context.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Caching.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.DurableInstancing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Remoting.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.Formatters.Soap.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Activation.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Discovery.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Routing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Web.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceProcess.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Threading.Tasks.Dataflow.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Abstractions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.ApplicationServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.DynamicData.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Extensions.Design.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Extensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Http.SelfHost.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Http.WebHost.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Http.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Mobile.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Mvc.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Razor.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.RegularExpressions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Routing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.Services.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.WebPages.Deployment.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.WebPages.Razor.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.WebPages.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Web.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Windows.Forms.DataVisualization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Windows.Forms.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Windows.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Workflow.Activities.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Workflow.ComponentModel.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Workflow.Runtime.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Serialization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/SystemWebTestShim.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/WebMatrix.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/WindowsBase.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/cscompmgd.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/monodoc.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed/MethodsToPreserve.xml",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed/TypesInScenes.xml",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed/SerializedTypes.xml",
+        "C:/Users/markt/Unity Games/DES 304 Light Gun Game/Light-Gun-Game/Temp/StagingArea/Data/Managed/EditorToUnityLinkerData.json",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/modules.asset",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/Il2CppEagerStaticClassConstructionAttribute.cs",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/Il2CppSetOptionAttribute.cs",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/il2cpp_default_extra_types.txt",
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/il2cpp_root"
+      ],
+      "Outputs": [],
+      "TargetDirectories": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped"
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "GlobSignatures": [
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped",
+          "Filter": "*.dll",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped",
+          "Filter": "*.exe",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped",
+          "Filter": "*.winmd",
+          "Recurse": 1
+        },
+        {
+          "Path": "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped",
+          "Filter": "*.pdb",
+          "Recurse": 1
+        }
+      ],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Assembly-CSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Assembly-CSharp.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Assembly-CSharp.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Mono.Security.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Mono.Security.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Mono.Security.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/mscorlib.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/mscorlib.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/mscorlib.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Configuration.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Configuration.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Configuration.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Core.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Core.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Numerics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Numerics.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Numerics.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Xml.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/System.Xml.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/System.Xml.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Unity.TextMeshPro.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Unity.TextMeshPro.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AIModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AIModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 15
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AnimationModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AnimationModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AnimationModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AssetBundleModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AssetBundleModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AudioModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.AudioModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.AudioModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.CoreModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.CoreModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.CoreModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.DirectorModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.DirectorModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.DirectorModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.GridModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.GridModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.GridModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.IMGUIModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.IMGUIModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputLegacyModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.InputLegacyModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.InputModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.InputModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.InputModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.Physics2DModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.Physics2DModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.PhysicsModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.PhysicsModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.SubsystemsModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.SubsystemsModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TerrainModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TerrainModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TerrainModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TextRenderingModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TextRenderingModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TilemapModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.TilemapModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.TilemapModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UI.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UI.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UIElementsModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 38
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIElementsNativeModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 39
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UIModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UIModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 41
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.VFXModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VFXModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.VFXModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 43
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.VideoModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VideoModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.VideoModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.VRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.VRModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.VRModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 45
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.XRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Assembly-CSharp.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Assembly-CSharp.pdb"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Assembly-CSharp.pdb"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 47
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Unity.TextMeshPro.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/Unity.TextMeshPro.pdb"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/Unity.TextMeshPro.pdb"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 48
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UI.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped/UnityEngine.UI.pdb"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Managed/UnityEngine.UI.pdb"
+      ],
+      "ToBuildDependencies": [
+        5
+      ],
+      "DebugActionIndex": 49
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "Mark Hanley\nDES 304 Initial Prototype",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 50
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/app.info",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/app.info"
+      ],
+      "ToBuildDependencies": [
+        50
+      ],
+      "DebugActionIndex": 51
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Resources/unity default resources",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype_Data/Resources/unity default resources"
+      ],
+      "DebugActionIndex": 52
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/WindowsPlayer.exe"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype.exe"
+      ],
+      "DebugActionIndex": 53
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/UnityCrashHandler64.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/UnityCrashHandler64.exe"
+      ],
+      "DebugActionIndex": 54
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/UnityPlayer.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/UnityPlayer.dll"
+      ],
+      "DebugActionIndex": 55
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "DebugActionIndex": 56
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "DebugActionIndex": 57
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/browscap.ini",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "DebugActionIndex": 58
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/config"
+      ],
+      "DebugActionIndex": 59
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 60
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "DebugActionIndex": 61
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "DebugActionIndex": 63
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 64
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 65
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "DebugActionIndex": 66
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "DebugActionIndex": 67
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "DebugActionIndex": 68
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 69
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 70
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "DebugActionIndex": 71
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "DebugActionIndex": 72
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "DebugActionIndex": 73
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 74
+    },
+    {
+      "Annotation": "CopyFiles C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "Outputs": [
+        "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "DebugActionIndex": 75
+    },
+    {
+      "Annotation": "Player",
+      "Action": "",
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75
+      ],
+      "AllowUnexpectedOutput": true,
+      "DebugActionIndex": 76
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/Player56c36178-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/codegen"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/gc"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/os"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/utils"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/vm-utils"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpptiny"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
+    },
+    {
+      "File": "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/DES 304 Initial Prototype.sln"
+    },
+    {
+      "File": "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/GameAssembly.dll"
+    },
+    {
+      "File": "C:/Users/markt/Unity Games/Executable Projects/Light Gun Updated/UnityCommon.props"
+    },
+    {
+      "File": "Library/Bee/Player56c36178-inputdata.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "Assets/StreamingAssets",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp"
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/codegen",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/gc",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/os",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/utils",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/il2cpp/libil2cpp/vm-utils",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Tools/BuildPipeline"
+    },
+    {
+      "Path": "Library/PlayerDataCache/Win64/Data",
+      "Recurse": 1
+    },
+    {
+      "Path": "Temp/StagingArea/Data/Plugins"
+    },
+    {
+      "Path": "Temp/StagingArea/Data/UnitySubsystems",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".winmd",
+    ".pdb",
+    ".cpp",
+    ".cc",
+    ".c",
+    ".hpp",
+    ".h",
+    ".json",
+    ".xml",
+    ".txt",
+    ".config"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "EmitDataForBeeWhy": 0,
+  "DirectoriesCausingImplicitDependencies": [
+    "Library/Bee/artifacts/WinPlayerBuildProgram/ManagedStripped"
+  ],
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "Player": 76
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/Player56c36178.dag.json",
+  "RelativePathToRoot": "../.."
+}
