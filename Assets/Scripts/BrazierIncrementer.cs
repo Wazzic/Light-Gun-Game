@@ -16,7 +16,7 @@ public class BrazierIncrementer : MonoBehaviour
     {
         if (!HasHit)
         {
-            Debug.Log("You've hit a Brazier");
+            //Debug.Log("You've hit a Brazier");
             HasHit = true;
             lightguntesting.LitBraziers++;
         }

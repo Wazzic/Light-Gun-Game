@@ -32,7 +32,6 @@ public class MatChange : MonoBehaviour
                 SelectedObjectRenderer.material = DefaultMaterial;
             }
         }
-
         //if(lightGunTest.NoBraziersHit>=2)
         //{
             //Debug.Log("Keep braziers yellow");

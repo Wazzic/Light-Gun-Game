@@ -69,9 +69,9 @@
     <Compile Include="Assets\Scripts\Archive\Raycast.cs" />
     <Compile Include="Assets\Scripts\ButtonInteraction.cs" />
     <Compile Include="Assets\Scripts\MouseHandler.cs" />
+    <Compile Include="Assets\Scripts\BrazierIncrementer.cs" />
     <Compile Include="Assets\Scripts\Archive\RaycastReflection.cs" />
     <Compile Include="Assets\Scripts\Character_Controller.cs" />
-    <Compile Include="Assets\Scripts\BrazierIncrementer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -82,7 +82,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\External Assets\WaterShaded.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-    <None Include="Assets\External Assets\Credits.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
