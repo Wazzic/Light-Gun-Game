@@ -18,10 +18,8 @@ Library\Bee\artifacts\mvdfrm\UnityEditor.UIElementsSamplesModule.dll_99393B4C0DD
 Library\Bee\artifacts\mvdfrm\UnityEditor.UIServiceModule.dll_6D042B14283E4ED7.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.UnityConnectModule.dll_8E9F080828E61AE3.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AccessibilityModule.dll_D67051D0CD6A95C9.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEngine.AIModule.dll_4FB47F485D69F061.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AnimationModule.dll_AE0EE8BDA6AB5A2F.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.ARModule.dll_0927444BBA874F2A.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEngine.AssetBundleModule.dll_881AC09021961D3D.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.AudioModule.dll_7B328FE275B81761.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.ClusterInputModule.dll_0E3B7D1DDA6DEDA9.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.ClusterRendererModule.dll_12FC83DBBCAA9028.mvfrm
@@ -34,7 +32,6 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.GameCenterModule.dll_A26762497908D790.m
 Library\Bee\artifacts\mvdfrm\UnityEngine.GIModule.dll_E7F0C855F918D87B.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.GridModule.dll_9903FCC68F1596CF.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.HotReloadModule.dll_2F57A6C381DE75B1.mvfrm
-Library\Bee\artifacts\mvdfrm\UnityEngine.ImageConversionModule.dll_7EEE818C3ECF481C.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.IMGUIModule.dll_B3922F493BE9AB42.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.InputLegacyModule.dll_195FDBAEB987D32E.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.InputModule.dll_E1A85792EBF03C05.mvfrm

@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Occlusion
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 40
+  controlID: 104
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 49
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 42
+  controlID: 50
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: OcclusionCullingWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -269,15 +269,15 @@ MonoBehaviour:
     y: 0
     width: 516
     height: 730.8
-  m_MinSize: {x: 301, y: 271}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 2
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 2
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -464,23 +464,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 00a0ffff
-      m_LastClickedID: -24576
-      m_ExpandedIDs: 1cb9ffff9abbffff2ec9ffff06fbffff9c6c000006790000
+      m_SelectedIDs: be9effff
+      m_LastClickedID: 0
+      m_ExpandedIDs: 524fffff7ef7fffff2f9ffff08fbffff0c580000b2580000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Stand To Shoot Areas
-        m_OriginalName: Stand To Shoot Areas
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 30146
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -676,7 +676,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -748,9 +748,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 3.5563374, y: 1.3548998, z: 24.862698}
+    m_Target: {x: -10.350316, y: 19.204332, z: 76.30508}
     speed: 2
-    m_Value: {x: 3.5563374, y: 1.3548998, z: 24.862698}
+    m_Value: {x: -10.350316, y: 19.204332, z: 76.30508}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -796,13 +796,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10579394, y: 0.21453273, z: 0.027733061, w: 0.97119254}
+    m_Target: {x: -0.23634909, y: -0.11811307, z: -0.01882527, w: 0.96494466}
     speed: 2
-    m_Value: {x: -0.09695304, y: 0.21610236, z: 0.0259267, w: 0.97119915}
+    m_Value: {x: -0.23764363, y: -0.11800887, z: -0.018990677, w: 0.96397024}
   m_Size:
-    m_Target: 0.1768474
+    m_Target: 18.959719
     speed: 2
-    m_Value: 0.17684758
+    m_Value: 18.959719
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.03217426, y: -0.9365274, z: -0.09787484, w: -0.33592233}
+  m_LastSceneViewRotation: {x: 0.12405546, y: -0.87065977, z: 0.31127802, w: 0.36176163}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -868,22 +868,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/External Assets/Materials
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/External Assets/Materials
+  - Assets
   m_LastFoldersGridSize: 64
   m_LastProjectPath: C:\Users\markt\Unity Games\DES 304 Light Gun Game\Light-Gun-Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 38560000
-    m_LastClickedID: 22072
-    m_ExpandedIDs: 000000000e56000010560000125600001456000016560000185600001a5600001c5600001e56000020560000225600002456000026560000285600002a5600002c5600002e5600003056000032560000ffffff7f
+    m_SelectedIDs: 14610000
+    m_LastClickedID: 24852
+    m_ExpandedIDs: 000000001461000016610000186100001a6100001c6100001e61000020610000226100002461000026610000286100002a6100002c6100002e6100003061000032610000346100003661000038610000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -911,7 +911,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000e56000010560000125600001456000016560000185600001a5600001c5600001e56000020560000225600002456000026560000285600002a5600002c5600002e5600003056000032560000
+    m_ExpandedIDs: 000000001461000016610000186100001a6100001c6100001e61000020610000226100002461000026610000286100002a6100002c6100002e6100003061000032610000346100003661000038610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -938,7 +938,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000965f000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -963,7 +963,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 37.40001}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207

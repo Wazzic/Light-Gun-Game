@@ -101,10 +101,6 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.AIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.ARModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
       <Private>False</Private>
@@ -115,10 +111,6 @@
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
@@ -167,10 +159,6 @@
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.1.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.InputModule">

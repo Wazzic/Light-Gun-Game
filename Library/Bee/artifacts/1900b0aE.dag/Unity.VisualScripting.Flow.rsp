@@ -122,7 +122,6 @@
 -define:ENABLE_TIMELINE
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:UNITY_POST_PROCESSING_STACK_V2
--define:MODULE_AI_EXISTS
 -define:MODULE_ANIMATION_EXISTS
 -define:MODULE_PHYSICS_EXISTS
 -define:MODULE_PARTICLE_SYSTEM_EXISTS
@@ -146,10 +145,8 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
@@ -162,7 +159,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
--r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.1.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
