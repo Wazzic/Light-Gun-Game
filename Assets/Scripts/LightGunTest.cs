@@ -10,7 +10,7 @@ public class LightGunTest : MonoBehaviour
     public float range = 10f;                       //How far does the gun shoot for
     public Camera FpsCam;                           // The public camera
 
-    public int LitBraziers;
+    public int LitBraziers = 0;
     public int MaxReflections = 5;                  // Max amount of reflections before termination, prevents infinitly reflecting
     public int NumberofReflections;                 // No of Current Reflections
     public int NoBraziersHit;                       // No of Current Braizers Hit
@@ -28,6 +28,8 @@ public class LightGunTest : MonoBehaviour
     public GameObject PreviousHitObject;            // Stores the last object hit
     public Material DefaultMaterial;                // Default off/blue material
     public Material HighlightedMaterial;            // Once hit turn to yellow
+
+    public GameObject CanvasHolder;
     void Start()
     {
         LineRend = GetComponent<LineRenderer>();                    //Get the Line Renderer component
@@ -42,6 +44,7 @@ public class LightGunTest : MonoBehaviour
         {
             ShootLaserGun();
             BounceCount();
+            CalculateBrazierHits();
         }
     }
 
@@ -76,10 +79,9 @@ public class LightGunTest : MonoBehaviour
 
                 if (Physics.Raycast(MyRay, out hit, range, BraizerMask))                 // If the ray hit a brazier
                 {
+                    hit.transform.SendMessage("HitByRay");
                     NoBraziersHit++;                                                     // Increase the number of braziers by 1
                     IsBrazierHit = true;                                                 // Sets the brazier hit to true
-                    CalculateBrazierHits();
-
                     Renderer SelectedObjectRenderer = hit.transform.GetComponent<Renderer>();           // Gets the renderer component of the hit object
                     SelectedObjectRenderer.material = HighlightedMaterial;                              // Sets the material to the Highlighted material
                     CurrentHitObject = hit.transform.gameObject;                                        // Sets the current hit object to the transform of what was hit
@@ -107,6 +109,10 @@ public class LightGunTest : MonoBehaviour
 
     void CalculateBrazierHits()
     {
-            LitBraziers++;
+        if(LitBraziers >= 9)
+        {
+            //Debug.Log("You've hit all the braziers");
+            CanvasHolder.SetActive(true);
+        }
     }
 }

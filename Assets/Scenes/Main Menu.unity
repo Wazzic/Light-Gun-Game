@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Developed by Mark Hanley
+  m_text: Created by Mark Hanley
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Light The Braiziers
+  m_text: Light The Braziers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1071,7 +1071,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Developed by Mark Hanley
+  m_text: Created by Mark Hanley
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2135,23 +2135,25 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You are provided with a laser rifle. Shoot all the braziers within the
-    environment to complete the experience. Some targets may need to be lit simultaniously
-    to continue onwards
+  m_text: 'You are tasked with shooting all 9 braziers within the environment to
+    win.
 
 
-    Use reflective surfaces to light multiple braziers
-    at once to open doors. You have unlimited ammo but the refelective angle may
-    be tight. Purple floor squares may assist in positioning your character.
+    Look for purple floor squares for ideal locations to shoot from. Your
+    laser rifle will bouce of reflective grey squares and perfectly align your shots.
 
 
-    Press
-    [Left Click] to shoot your gun
+    Some
+    doors may require multiple braziers to be lit simultaneously to open.
 
-    Use [WASD] to move around.
 
-    [Escape]
-    to return to the Main Menu'
+    [Left
+    Click] - Shoot your gun
+
+    [WASD] - Move around.
+
+    [Escape] -  Return to
+    the Main Menu'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2286,7 +2288,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: How To Play!
+  m_text: How To Play
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -333,6 +333,7 @@
 "Assets/Scripts/Archive/Projection.cs"
 "Assets/Scripts/Archive/Raycast.cs"
 "Assets/Scripts/Archive/RaycastReflection.cs"
+"Assets/Scripts/BrazierIncrementer.cs"
 "Assets/Scripts/ButtonInteraction.cs"
 "Assets/Scripts/Character_Controller.cs"
 "Assets/Scripts/DoorController.cs"

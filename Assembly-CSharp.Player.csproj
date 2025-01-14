@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\MouseHandler.cs" />
     <Compile Include="Assets\Scripts\Archive\RaycastReflection.cs" />
     <Compile Include="Assets\Scripts\Character_Controller.cs" />
+    <Compile Include="Assets\Scripts\BrazierIncrementer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

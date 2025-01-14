@@ -8,6 +8,7 @@ public class MatChange : MonoBehaviour
     LightGunTest lightGunTest;
     public GameObject LightGunObj;
     public Material DefaultMaterial;
+    //private bool DidHit2 = false;
 
     private void Start()
     {
@@ -24,8 +25,18 @@ public class MatChange : MonoBehaviour
         if (!lightGunTest.IsBrazierHit)
         {
             //Debug.Log("Turning Blue");
-            Renderer SelectedObjectRenderer = GetComponent<Renderer>();
-            SelectedObjectRenderer.material = DefaultMaterial;
+            //if (!DidHit2)
+            {
+                //Debug.Log("Did hit 2 = false");
+                Renderer SelectedObjectRenderer = GetComponent<Renderer>();
+                SelectedObjectRenderer.material = DefaultMaterial;
+            }
         }
+
+        //if(lightGunTest.NoBraziersHit>=2)
+        //{
+            //Debug.Log("Keep braziers yellow");
+            //DidHit2 = true;
+        //}
     }
 }
