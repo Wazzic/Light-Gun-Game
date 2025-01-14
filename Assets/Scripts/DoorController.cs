@@ -10,6 +10,7 @@ public class DoorController : MonoBehaviour
 
     LightGunTest lightGunTest;
     public GameObject Place;
+    private bool PassedDoor = false;
 
     private void Start()
     {
@@ -42,7 +43,7 @@ public class DoorController : MonoBehaviour
     }
     public void SetOpening()
     {
-        if (lightGunTest.NoBraziersHit == 2)
+        if (lightGunTest.NoBraziersHit >= 2 || PassedDoor)
         {
             opening = true;
         }
@@ -55,5 +56,10 @@ public class DoorController : MonoBehaviour
     public void ToggleDoor()
     {
         opening = !opening;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        PassedDoor = true;
     }
 }

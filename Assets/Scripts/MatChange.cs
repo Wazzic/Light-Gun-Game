@@ -17,23 +17,14 @@ public class MatChange : MonoBehaviour
     private void Update()
     {
         MaterialChange();
-        //ResetMat();
     }
 
     void MaterialChange()
     {
         if (!lightGunTest.IsBrazierHit)
         {
+            //Debug.Log("Turning Blue");
             Renderer SelectedObjectRenderer = GetComponent<Renderer>();
-            SelectedObjectRenderer.material = DefaultMaterial;
-        }
-    }
-    void ResetMat()
-    {
-        if (lightGunTest.CurrentHitObject == null)
-        {
-            //Debug.Log("Turning Blue2");
-            Renderer SelectedObjectRenderer = lightGunTest.PreviousHitObject.GetComponent<Renderer>();
             SelectedObjectRenderer.material = DefaultMaterial;
         }
     }

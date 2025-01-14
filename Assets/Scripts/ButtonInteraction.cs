@@ -8,6 +8,12 @@ public class ButtonInteraction : MonoBehaviour
 {
     [SerializeField] GameObject MenuCanvas;
     [SerializeField] GameObject InstructionsCanvas;
+
+    private void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
     public void OnPlayPress()
     {
         SceneManager.LoadScene(1);

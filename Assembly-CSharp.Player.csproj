@@ -59,16 +59,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Archive\ChangeMaterial.cs" />
-    <Compile Include="Assets\Scripts\Archive\Projection.cs" />
-    <Compile Include="Assets\Scripts\Archive\LowPolyWater.cs" />
-    <Compile Include="Assets\Scripts\Archive\Raycast.cs" />
-    <Compile Include="Assets\Scripts\ButtonInteraction.cs" />
-    <Compile Include="Assets\Scripts\MouseHandler.cs" />
     <Compile Include="Assets\Scripts\LightGunTest.cs" />
     <Compile Include="Assets\Scripts\Archive\HidingWeapon.cs" />
     <Compile Include="Assets\Scripts\MatChange.cs" />
+    <Compile Include="Assets\Scripts\Archive\Projection.cs" />
     <Compile Include="Assets\Scripts\LightGun.cs" />
+    <Compile Include="Assets\Scripts\Archive\LowPolyWater.cs" />
     <Compile Include="Assets\Scripts\DoorController.cs" />
+    <Compile Include="Assets\Scripts\Archive\Raycast.cs" />
+    <Compile Include="Assets\Scripts\ButtonInteraction.cs" />
+    <Compile Include="Assets\Scripts\MouseHandler.cs" />
     <Compile Include="Assets\Scripts\Archive\RaycastReflection.cs" />
     <Compile Include="Assets\Scripts\Character_Controller.cs" />
   </ItemGroup>
@@ -785,12 +785,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">

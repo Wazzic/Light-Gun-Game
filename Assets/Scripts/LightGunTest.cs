@@ -78,7 +78,7 @@ public class LightGunTest : MonoBehaviour
                 {
                     NoBraziersHit++;                                                     // Increase the number of braziers by 1
                     IsBrazierHit = true;                                                 // Sets the brazier hit to true
-                    LitBraziers++;                                                       //Debug.Log("Hitting Brazier");
+                    CalculateBrazierHits();
 
                     Renderer SelectedObjectRenderer = hit.transform.GetComponent<Renderer>();           // Gets the renderer component of the hit object
                     SelectedObjectRenderer.material = HighlightedMaterial;                              // Sets the material to the Highlighted material
@@ -103,5 +103,10 @@ public class LightGunTest : MonoBehaviour
         else
             LineRend.positionCount = 2;
         LineRend.SetPosition(0, _lightGunStart.transform.position + transform.forward);
+    }
+
+    void CalculateBrazierHits()
+    {
+            LitBraziers++;
     }
 }
